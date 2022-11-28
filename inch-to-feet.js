@@ -5,5 +5,5 @@ function inchToFeet(inch){
 
 var nanaFeet = inchToFeet(1268);
 console.log(nanaFeet);
-var naniFeet = inchToFeet(37);
+var naniFeet = inchToFeet(300);
 console.log(naniFeet);
