@@ -1,18 +1,11 @@
-function leapYear(years){
-   var result; 
-   if (years/400){
-     result = true
-   }
-   else if(years/100){
-     result = false
-   }
-   else if(years/4){
-     result= true
-   }
-   else{
-     result= false
-   }
-   return result
+function isLeapYear(year) {
+    const remainder = year % 4;
+    if (remainder == 0) {
+        return true;
+    } else {
+        return false;
+    }
 }
-let calculation = leapYear(2024);
-console.log(calculation);
+
+const check2000 = isLeapYear(1700);
+console.log(check2000);

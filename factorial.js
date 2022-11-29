@@ -1,11 +1,10 @@
 function factorial(n) {
-    var i = 1;
     var fact = 1;
-    while (i <= n) {
+    for (var i = 1; i <= n; i++) {
         fact = fact * i;
-        i++;
     }
     return fact;
 }
-var result = factorial(5);
+
+var result = factorial(6);
 console.log(result);
